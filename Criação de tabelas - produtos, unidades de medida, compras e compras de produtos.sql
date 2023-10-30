@@ -28,6 +28,7 @@ VALUES ('Carne', '1234');
 -- ERROR! (Porque falta inserir uma coluna 'unm_id', pois foi registrado alterado!)
 
 SELECT * FROM prd_produtos;
+SELECT * FROM cmp_compras;
 
 INSERT INTO prd_produtos
 (prd_nome, prd_codigo, unm_id)
